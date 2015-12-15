@@ -23,6 +23,9 @@ HTMLからEPUBへの変換は[Pandoc](http://pandoc.org/installing.html)を使�
 
 ```
 > ruby rhg_epub.rb
+combine HTML => all_epub.html
+convert HTML to EPUB
+process is complete => ruby_hacking_guide.epub
 ```
 
 *   作成した`ruby_hacking_guide.epub`をEPUBリーダーで閲覧。
