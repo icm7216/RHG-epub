@@ -13,7 +13,8 @@ all_html = <<HTML
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<meta name="author" content="Aoki Minero">
+<meta name="author" content="Minero Aoki">
+<meta name="language" content="ja">
 <link rel="stylesheet" type="text/css" href=#{EPUB_CSS}>
 <title>Ruby Hacking Guide</title>
 </head>
