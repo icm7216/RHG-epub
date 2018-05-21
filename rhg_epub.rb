@@ -51,6 +51,6 @@ puts "combine HTML => #{HTML_OUT}"
 File.open(HTML_OUT, "w"){|w| w.puts all_html }
 
 puts "convert HTML to EPUB"
-system("pandoc -f html -t epub #{HTML_OUT} -o #{EPUB_OUT} --epub-stylesheet=#{EPUB_CSS}")
+system("pandoc -f html -t epub #{HTML_OUT} -o #{EPUB_OUT} --css=#{EPUB_CSS}")
 
 puts "process is complete => #{EPUB_OUT}"
